@@ -1,0 +1,20 @@
+Difference between document and Window objects in Javascript 
+
+>> Window in Javascript 
+
+A) It's the top-level object in the hierarchy. All other objects, like document, navigator, or location, come under the window object,
+ making them properties of the window
+B) Represents the browser's window in which the document is displayed. It acts as the global object for the JavaScript in the 
+browser environment.
+C) It Has properties and methods related to the browser window itself, like window.alert(), window.open(), window.innerHeight etc .
+D) The functions and variables declared globally become properties and methods of the window object.
+E) It deals with events that are broader in nature, like the page loading or resizing the browser window .
+
+>>Document Objects  in Javascript 
+
+A) It is a property of the window object and can be considered as a child of the window object.
+B) Represents the webpage or the DOM (Document Object Model) within that window. It provides a structured representation of the 
+content of the page and methods to manipulate the content.
+C) It contains methods and properties related to the DOM of the webpage, like document.getElementById(), document.createElement() etc
+D) It handles events related more directly to the content, like user interactions with elements on the page.
+E) It focus is mainly on the content and structure of the webpage.
